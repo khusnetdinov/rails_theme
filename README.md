@@ -6,7 +6,7 @@ Rails responsive theme based on Twitter Bootstrap
 
 Add this line to your application's Gemfile:
 
-    gem 'rails_theme'
+    gem 'rails_theme', github: 'evncom/rails_theme'
 
 And then execute:
 
