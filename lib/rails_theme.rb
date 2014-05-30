@@ -1,5 +1,6 @@
 require "rails_theme/version"
 
 module RailsTheme
-  # Your code goes here...
+  class Engine < ::Rails::Engine
+  end
 end

@@ -8,16 +8,17 @@ Gem::Specification.new do |spec|
   spec.version       = RailsTheme::VERSION
   spec.authors       = ["Marat Khusnetdinov"]
   spec.email         = ["marat@khusnetdinov.ru"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{rails theme}
+  spec.description   = %q{rails theme}
   spec.homepage      = ""
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0")
+  spec.files         = Dir["{lib,vendor}/**/*"] + ["README.md"]
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rails", "~> 4.0.0"
 end
