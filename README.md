@@ -18,7 +18,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Markup for application.html.haml
+    
+    = stylesheet_link_tag 'application', media: 'all'
+    = javascript_include_tag 'application'
+
+    /[if lte IE 8]
+      = javascript_include_tag 'theme_ie8'
+      = stylesheet_link_tag 'theme_ie8'
+
+    /[if lte IE 7]
+      = stylesheet_link_tag 'theme_ie7'
+      = javascript_include_tag 'theme_ie7'
 
 ## Contributing
 
