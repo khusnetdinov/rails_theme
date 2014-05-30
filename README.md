@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-Markup for application.html.haml
+Markup for application.html.haml:
     
     = stylesheet_link_tag 'application', media: 'all'
     = javascript_include_tag 'application'
@@ -31,6 +31,35 @@ Markup for application.html.haml
       = stylesheet_link_tag 'theme_ie7'
       = javascript_include_tag 'theme_ie7'
 
+Css manifest:
+    
+    //= require theme
+    
+    # If you want other color use code below:
+    //= require color_theme
+    # color: blue, red, orange, violet
+    
+Js manifect:
+
+    //= require theme
+    
+    # If you want use buildin plugins
+    //= require theme/plugins/some_pligin
+
+    # plugins list:
+    # Bootstrap Hover Dropdown
+    # Respond.js
+    # html5.js
+    # Bowser
+    # Device.js
+    # jQuery Parallax
+    # jQuery Placeholder
+    # TouchSwipe jQuery Plugin
+    # jQuery Scroll to Top Control
+    # Box-sizing Polyfill
+    # jQuery Plugin Box-Sizing Polyfill
+    # Google Maps API
+    
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/rails_theme/fork )
