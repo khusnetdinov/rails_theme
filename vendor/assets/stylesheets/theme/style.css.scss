@@ -2,22 +2,22 @@
 @font-face {
     font-family: 'pacificoregular';
 
-    src: url('../pacifico/pacifico-webfont.eot');
-    src: url('../pacifico/pacifico-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../pacifico/pacifico-webfont.woff') format('woff'),
-         url('../pacifico/pacifico-webfont.ttf') format('truetype'),
-         url('../pacifico/pacifico-webfont.svg#pacificoregular') format('svg');
+    src: url('/assets/pacifico/pacifico-webfont.eot');
+    src: url('/assets/pacifico/pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/pacifico/pacifico-webfont.woff') format('woff'),
+         url('/assets/pacifico/pacifico-webfont.ttf') format('truetype'),
+         url('/assets/pacifico/pacifico-webfont.svg#pacificoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'open_sansbold';
-    src: url('../opensans/opensans-bold-webfont.eot');
-    src: url('../opensans/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../opensans/opensans-bold-webfont.woff') format('woff'),
-         url('../opensans/opensans-bold-webfont.ttf') format('truetype'),
-         url('../opensans/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    src: url('/assets/opensans/opensans-bold-webfont.eot');
+    src: url('/assets/opensans/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/opensans/opensans-bold-webfont.woff') format('woff'),
+         url('/assets/opensans/opensans-bold-webfont.ttf') format('truetype'),
+         url('/assets/opensans/opensans-bold-webfont.svg#open_sansbold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -25,11 +25,11 @@
 
 @font-face {
     font-family: 'open_sansbold_italic';
-    src: url('../opensans/opensans-bolditalic-webfont.eot');
-    src: url('../opensans/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../opensans/opensans-bolditalic-webfont.woff') format('woff'),
-         url('../opensans/opensans-bolditalic-webfont.ttf') format('truetype'),
-         url('../opensans/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
+    src: url('/assets/opensans/opensans-bolditalic-webfont.eot');
+    src: url('/assets/opensans/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/opensans/opensans-bolditalic-webfont.woff') format('woff'),
+         url('/assets/opensans/opensans-bolditalic-webfont.ttf') format('truetype'),
+         url('/assets/opensans/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -37,11 +37,11 @@
 
 @font-face {
     font-family: 'open_sansitalic';
-    src: url('../opensans/opensans-italic-webfont.eot');
-    src: url('../opensans/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../opensans/opensans-italic-webfont.woff') format('woff'),
-         url('../opensans/opensans-italic-webfont.ttf') format('truetype'),
-         url('../opensans/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+    src: url('/assets/opensans/opensans-italic-webfont.eot');
+    src: url('/assets/opensans/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/opensans/opensans-italic-webfont.woff') format('woff'),
+         url('/assets/opensans/opensans-italic-webfont.ttf') format('truetype'),
+         url('/assets/opensans/opensans-italic-webfont.svg#open_sansitalic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -49,11 +49,11 @@
 
 @font-face {
     font-family: 'open_sanslight';
-    src: url('../opensans/opensans-light-webfont.eot');
-    src: url('../opensans/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../opensans/opensans-light-webfont.woff') format('woff'),
-         url('../opensans/opensans-light-webfont.ttf') format('truetype'),
-         url('../opensans/opensans-light-webfont.svg#open_sanslight') format('svg');
+    src: url('/assets/opensans/opensans-light-webfont.eot');
+    src: url('/assets/opensans/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/opensans/opensans-light-webfont.woff') format('woff'),
+         url('/assets/opensans/opensans-light-webfont.ttf') format('truetype'),
+         url('/assets/opensans/opensans-light-webfont.svg#open_sanslight') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -61,11 +61,11 @@
 
 @font-face {
     font-family: 'open_sanslight_italic';
-    src: url('../opensans/opensans-lightitalic-webfont.eot');
-    src: url('../opensans/opensans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../opensans/opensans-lightitalic-webfont.woff') format('woff'),
-         url('../opensans/opensans-lightitalic-webfont.ttf') format('truetype'),
-         url('../opensans/opensans-lightitalic-webfont.svg#open_sanslight_italic') format('svg');
+    src: url('/assets/opensans/opensans-lightitalic-webfont.eot');
+    src: url('/assets/opensans/opensans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/opensans/opensans-lightitalic-webfont.woff') format('woff'),
+         url('/assets/opensans/opensans-lightitalic-webfont.ttf') format('truetype'),
+         url('/assets/opensans/opensans-lightitalic-webfont.svg#open_sanslight_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -73,11 +73,11 @@
 
 @font-face {
     font-family: 'open_sansregular';
-    src: url('../opensans/opensans-regular-webfont.eot');
-    src: url('../opensans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../opensans/opensans-regular-webfont.woff') format('woff'),
-         url('../opensans/opensans-regular-webfont.ttf') format('truetype'),
-         url('../opensans/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    src: url('/assets/opensans/opensans-regular-webfont.eot');
+    src: url('/assets/opensans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/opensans/opensans-regular-webfont.woff') format('woff'),
+         url('/assets/opensans/opensans-regular-webfont.ttf') format('truetype'),
+         url('/assets/opensans/opensans-regular-webfont.svg#open_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -110,8 +110,8 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
-.placeholder { 
-  color: #aaa; 
+.placeholder {
+  color: #aaa;
 }
 
 .container-int{
@@ -576,8 +576,8 @@ div.list-posts ul li a:hover{
   -moz-border-radius: 2px;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out; 
-  outline: none; 
+  -o-transition: all 0.4s ease-in-out;
+  outline: none;
 }
 
 .btn-lg {
