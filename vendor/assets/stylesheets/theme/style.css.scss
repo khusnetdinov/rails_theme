@@ -1,4 +1,40 @@
 /* Fonts */
+@mixin font-regular {
+  font-family: Helvetica, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@mixin font-regular-italic {
+  font-family: Helvetica, Sans-Serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+@mixin font-light {
+  font-family: Helvetica, Sans-Serif;
+  font-style: normal;
+  font-weight: lighter;
+}
+
+@mixin font-light-italic {
+  font-family: Helvetica, Sans-Serif;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+@mixin font-bold {
+  font-family: Helvetica, Sans-Serif;
+  font-style: normal;
+  font-weight: bolder;
+}
+
+@mixin font-bold-italic {
+  font-family: Helvetica, Sans-Serif;
+  font-style: italic;
+  font-weight: bolder;
+}
+
 @font-face {
     font-family: 'pacificoregular';
 
@@ -11,77 +47,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'open_sansbold';
-    src: url('/assets/opensans/opensans-bold-webfont.eot');
-    src: url('/assets/opensans/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/opensans/opensans-bold-webfont.woff') format('woff'),
-         url('/assets/opensans/opensans-bold-webfont.ttf') format('truetype'),
-         url('/assets/opensans/opensans-bold-webfont.svg#open_sansbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'open_sansbold_italic';
-    src: url('/assets/opensans/opensans-bolditalic-webfont.eot');
-    src: url('/assets/opensans/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/opensans/opensans-bolditalic-webfont.woff') format('woff'),
-         url('/assets/opensans/opensans-bolditalic-webfont.ttf') format('truetype'),
-         url('/assets/opensans/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'open_sansitalic';
-    src: url('/assets/opensans/opensans-italic-webfont.eot');
-    src: url('/assets/opensans/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/opensans/opensans-italic-webfont.woff') format('woff'),
-         url('/assets/opensans/opensans-italic-webfont.ttf') format('truetype'),
-         url('/assets/opensans/opensans-italic-webfont.svg#open_sansitalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'open_sanslight';
-    src: url('/assets/opensans/opensans-light-webfont.eot');
-    src: url('/assets/opensans/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/opensans/opensans-light-webfont.woff') format('woff'),
-         url('/assets/opensans/opensans-light-webfont.ttf') format('truetype'),
-         url('/assets/opensans/opensans-light-webfont.svg#open_sanslight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'open_sanslight_italic';
-    src: url('/assets/opensans/opensans-lightitalic-webfont.eot');
-    src: url('/assets/opensans/opensans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/opensans/opensans-lightitalic-webfont.woff') format('woff'),
-         url('/assets/opensans/opensans-lightitalic-webfont.ttf') format('truetype'),
-         url('/assets/opensans/opensans-lightitalic-webfont.svg#open_sanslight_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'open_sansregular';
-    src: url('/assets/opensans/opensans-regular-webfont.eot');
-    src: url('/assets/opensans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/opensans/opensans-regular-webfont.woff') format('woff'),
-         url('/assets/opensans/opensans-regular-webfont.ttf') format('truetype'),
-         url('/assets/opensans/opensans-regular-webfont.svg#open_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 /* Global Styles */
 
@@ -90,8 +55,8 @@
 }
 
 html, body {
+  @include font-regular;
   height:100%;
-  font-family: 'open_sansregular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -127,11 +92,11 @@ a:hover, a:focus {
 }
 
 h1, h2, h3, .h1, .h2, .h3 {
-  font-family: 'open_sanslight';
+  @include font-light;
 }
 
 h4, h5, h6, .h4, .h5, .h6{
-  font-family: 'open_sansregular';
+  @include font-regular;
 }
 
 h2.section-title{
@@ -145,7 +110,7 @@ h3.section-title{
 }
 
 h1.post-title, h2.post-title{
-  font-family: 'open_sansbold';
+  @include font-bold;
   font-size: 24px;
   margin-top: 0;
 }
@@ -190,9 +155,9 @@ blockquote p {
 }
 
 .navbar-inverse .navbar-nav > li > a {
+  @include font-regular;
   color: #fff;
   padding: 18px 15px;
-  font-family: 'open_sansregular';
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -264,8 +229,8 @@ blockquote p {
 }
 
 .link-portfolio .overlay-portfolio h3{
+  @include font-bold;
   font-size: 14px;
-  font-family: 'open_sansbold';
   margin: 0 0 20px 0;
 }
 
@@ -699,20 +664,20 @@ div.list-posts ul li a:hover{
 }
 
 .carousel-caption h2{
-  font-family: 'open_sanslight';
+  @include font-light;
   font-size: 43px;
   line-height: 50px;
   margin: 10px 0;
 }
 
 .carousel-caption .button{
+  @include font-bold;
   border: 2px solid white;
   -webkit-border: 2px solid white;
   -moz-border: 2px solid white;
   padding: 10px 40px;
   border-radius: 2px;
   color: white;
-  font-family: 'open_sansbold';
   margin: 30px 0 0 0;
   display: inline-block;
   -webkit-transition: all 0.4s ease-in-out;
@@ -753,7 +718,7 @@ div.list-posts ul li a:hover{
 }
 
 .block-body h2{
-  font-family: 'open_sanslight';
+  @include font-light;
   font-size: 19px;
   text-align: center;
 }
@@ -804,8 +769,8 @@ div.list-posts ul li a:hover{
 
 /* 404 Page Styles */
 h3.error-404{
+  @include font-bold;
   font-size: 250px;
-  font-family: 'open_sansbold';
   color: #159C81;
 }
 
@@ -879,7 +844,7 @@ footer p{
 }
 
 footer h3{
-  font-family: 'open_sansbold';
+  @include font-bold;
   margin: 20px 0 15px 0;
   color: #FFF;
   font-size: 14px;
