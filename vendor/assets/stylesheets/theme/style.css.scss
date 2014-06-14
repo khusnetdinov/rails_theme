@@ -35,22 +35,10 @@
   font-weight: bolder;
 }
 
-@font-face {
-    font-family: 'pacificoregular';
-
-    src: url('/assets/pacifico/pacifico-webfont.eot');
-    src: url('/assets/pacifico/pacifico-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/pacifico/pacifico-webfont.woff') format('woff'),
-         url('/assets/pacifico/pacifico-webfont.ttf') format('truetype'),
-         url('/assets/pacifico/pacifico-webfont.svg#pacificoregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
 
 /* Global Styles */
 
-*{
+* {
   outline: 0!important;
 }
 
