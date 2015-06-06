@@ -6,7 +6,7 @@ Rails responsive theme based on Twitter Bootstrap
 
 Add this line to your application's Gemfile:
 
-    gem 'rails_theme', github: 'evncom/rails_theme'
+    gem 'rails_theme', github: 'khusnetdinov/rails_theme'
 
 And then execute:
 
@@ -60,10 +60,3 @@ Js manifect:
     # jQuery Plugin Box-Sizing Polyfill
     # Google Maps API
     
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/rails_theme/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
